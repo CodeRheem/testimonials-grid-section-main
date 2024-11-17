@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    }
+
+.parent {
+        display: grid;
+        grid-template-columns: fr repeat(1, 0.5fr);
+        grid-template-rows: repeat(1, 3fr);
+        grid-column-gap: 17px;
+        grid-row-gap: 17px;
+    }
+
+.verified{
+    border: 2px solid black;
+    padding: 0.9rem;
+    margin: 1rem;
+}
+
+.daniel{
+    border-radius: 7rem;
+}
+
+.author{
+    margin-bottom: -4rem;
+}
