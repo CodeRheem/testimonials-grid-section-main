@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 13px;
 }
 
 .attribution {
@@ -21,9 +22,12 @@
     }
 
 .verified{
-    border: 2px solid black;
+    border: 2px solid hsl(263, 55%, 52%);
+    border-radius: 6px;
     padding: 0.9rem;
     margin: 1rem;
+    color: whitesmoke;
+    background-color: hsl(263, 55%, 52%);
 }
 
 .daniel{
@@ -31,5 +35,6 @@
 }
 
 .author{
-    margin-bottom: -4rem;
+    margin-left: 5rem;
+    margin-top: -3.5rem;
 }
